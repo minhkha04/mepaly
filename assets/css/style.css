@@ -173,78 +173,47 @@ header .navbar-nav .nav-link {
   margin-top: 10px;
   font-weight: bolder;
 }
-.new_items .item {
-  filter: contrast(0.5);
-}
 .new_items .items .item_1 {
   background: url(./../img/grid-metro-1.jpg);
-  height: 570px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_2 {
   background: url(./../img/grid-metro-2.jpg);
-  height: 277px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_3 {
   background: url(./../img/grid-metro-3.jpg);
-  height: 277px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_4 {
   background: url(./../img/grid-metro-4.jpg);
-  height: 277px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_5 {
   background: url(./../img/grid-metro-5.jpg);
-  height: 277px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_6 {
   background: url(./../img/grid-metro-6.jpg);
-  height: 277px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_7 {
   background: url(./../img/grid-metro-7.jpg);
-  height: 277px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_8 {
   background: url(./../img/grid-metro-8.jpg);
-  height: 277px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_9 {
   background: url(./../img/grid-metro-9.jpg);
-  height: 277px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .new_items .items .item_10 {
   background: url(./../img/grid-metro-10.jpg);
-  height: 570px;
+}
+.new_items .items .item {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  filter: contrast(0.5);
+}
+.new_items .items .item_big {
+  height: 570px;
+}
+.new_items .items .item_small {
+  height: 277px;
 }
 .new_items .overlay {
   position: absolute;
@@ -343,31 +312,28 @@ header .navbar-nav .nav-link {
 .contact .map {
   width: 70%;
 }
+.contact .input input:nth-child(3),
 .contact .input input:nth-child(1) {
   height: 50px;
   padding: 5px;
   width: 100%;
   border: 2px solid black;
 }
+.contact .input button,
+.contact .input textarea,
 .contact .input input:nth-child(3) {
-  height: 50px;
-  padding: 5px;
-  width: 100%;
   margin-top: 30px;
-  border: 2px solid black;
 }
 .contact .input textarea {
   height: 200px;
   padding: 5px;
   width: 100%;
-  margin-top: 30px;
   border: 2px solid black;
 }
 .contact .input button {
   text-transform: uppercase;
   height: 60px;
   width: 100%;
-  margin-top: 30px;
   border: none;
   font-size: 20px;
   font-weight: bold;
@@ -436,7 +402,6 @@ footer .icon span:hover {
   }
   
 }
-
 @media screen and (max-width: 1200px) {
   .contact .input {
     width: 40%;
